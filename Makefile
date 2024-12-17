@@ -25,8 +25,8 @@ re: clean up
 
 clean:
 	@docker-compose -f srcs/docker-compose.yml down -v
-	@rm -rf /home/kchaouki/data/database/*
-	@rm -rf /home/kchaouki/data/wordpress/*
+	@rm -rf /Users/MAC/data/database/*
+	@rm -rf /Users/MAC/data/wordpress/*
 
 da := $(shell docker images -qa)
 

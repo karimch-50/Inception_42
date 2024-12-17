@@ -1,5 +1,5 @@
 #!/bin/bash
 
 #create all directorys needed
-mkdir -p /home/kchaouki/data/wordpress
-mkdir -p /home/kchaouki/data/database
+mkdir -p /Users/MAC/data/wordpress
+mkdir -p /Users/MAC/data/database
